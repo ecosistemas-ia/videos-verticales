@@ -1,0 +1,131 @@
+{
+  "estilo": "pantallas",
+  "titulo": "Lo rápido que creció ChatGPT",
+  "subtitulos": "ninguno",
+  "musica": "tech-02.mp3",
+  "marca": {
+    "nombre": "@tucanal",
+    "acento": "#F26B3A"
+  },
+  "ajustes": {
+    "numeros": "es-ES"
+  },
+  "escenas": [
+    {
+      "plano": "frase",
+      "texto": "¿Cuánto tardó *ChatGPT* / en llegar a **un millón** / de usuarios?"
+    },
+    {
+      "plano": "pantalla",
+      "texto": "El **30 de noviembre** / de 2022 / OpenAI lo lanzó / como *prueba gratuita*",
+      "arriba": 2,
+      "pantalla": {
+        "tipo": "navegador",
+        "direccion": "openai.com/index/chatgpt",
+        "titulo": "ChatGPT, un modelo que conversa",
+        "lineas": [
+          "Responde preguntas de seguimiento, admite sus errores y rechaza peticiones inapropiadas.",
+          "Mientras dure esta fase de prueba, su uso es gratuito."
+        ]
+      }
+    },
+    {
+      "plano": "pantalla",
+      "texto": "Le escribías / y respondía **al instante**",
+      "pantalla": {
+        "tipo": "chat",
+        "pregunta": "¿Me explicas qué es un modelo de lenguaje?",
+        "respuesta": "Claro. Es un programa entrenado con muchísimo texto para predecir la palabra siguiente. Así puede responder, resumir y redactar."
+      }
+    },
+    {
+      "plano": "numero",
+      "texto": "**Cinco días** después / superó el millón",
+      "valor": 1000000
+    },
+    {
+      "plano": "persona",
+      "texto": "Lo anunció **Sam Altman**",
+      "nombre": "Sam Altman",
+      "cargo": "Director ejecutivo de OpenAI"
+    },
+    {
+      "plano": "numero",
+      "texto": "En **enero** de 2023 / según UBS / *100 millones* al mes",
+      "valor": 100000000
+    },
+    {
+      "plano": "marcas",
+      "texto": "A **TikTok** le costó *nueve meses* / y a **Instagram** / *dos años y medio*",
+      "marcas": [
+        {
+          "nombre": "TikTok",
+          "icono": "music-notes"
+        },
+        {
+          "nombre": "Instagram",
+          "icono": "camera"
+        }
+      ]
+    },
+    {
+      "plano": "frase",
+      "texto": "La app de consumo / que **más rápido** creció / de la *historia*",
+      "destello": true
+    },
+    {
+      "plano": "lista",
+      "texto": "Las claves / era **gratis** / sin instalar *nada* / y en lenguaje *natural*"
+    },
+    {
+      "plano": "pantalla",
+      "texto": "Mucha gente / le pregunta a la **IA** / lo que antes *buscaba*",
+      "pantalla": {
+        "tipo": "buscador",
+        "consulta": "cómo pedir un aumento de sueldo",
+        "respuesta": "Reúne datos de tus logros, elige un buen momento y propón una cifra concreta.",
+        "resultados": [
+          "Cómo negociar un aumento paso a paso",
+          "Errores comunes al pedir un aumento"
+        ]
+      }
+    },
+    {
+      "plano": "numero",
+      "texto": "En **2025** / OpenAI habló de / *800 millones* por semana",
+      "valor": 800000000
+    },
+    {
+      "plano": "personaje",
+      "texto": "¿Eres uno de *ellos*?",
+      "cantidad": 12
+    },
+    {
+      "plano": "cierre",
+      "texto": "Sígueme / para más *noticias de IA*"
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "OpenAI, «Introducing ChatGPT» (lanzamiento como prueba gratuita)",
+      "url": "https://openai.com/index/chatgpt/",
+      "fecha": "2022-11-30"
+    },
+    {
+      "titulo": "Sam Altman en X: «ChatGPT launched on wednesday. today it crossed 1 million users!»",
+      "url": "https://x.com/sama/status/1599668808285028353",
+      "fecha": "2022-12-05"
+    },
+    {
+      "titulo": "Reuters, «ChatGPT sets record for fastest-growing user base - analyst note» (UBS; TikTok nueve meses e Instagram dos años y medio según Sensor Tower)",
+      "url": "https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/",
+      "fecha": "2023-02-01"
+    },
+    {
+      "titulo": "TechCrunch, «Sam Altman says ChatGPT has hit 800M weekly active users» (DevDay)",
+      "url": "https://techcrunch.com/2025/10/06/sam-altman-says-chatgpt-has-hit-800m-weekly-active-users/",
+      "fecha": "2025-10-06"
+    }
+  ],
+  "volumen_musica": 0.25
+}

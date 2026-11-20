@@ -1,0 +1,78 @@
+{
+  "estilo": "quiz",
+  "titulo": "Capitales de América",
+  "subtitulos": "ninguno",
+  "musica": "energica-01.mp3",
+  "marca": {
+    "nombre": "@tucanal",
+    "acento": "#FFC83D"
+  },
+  "ajustes": {
+    "tema": "Capitales de América",
+    "cuenta": 4
+  },
+  "escenas": [
+    {
+      "tipo": "intro",
+      "texto": "¿Cuántas capitales de América conoces?"
+    },
+    {
+      "tipo": "pregunta",
+      "texto": "¿Cuál es la capital de Canadá?",
+      "opciones": [
+        "Toronto",
+        "Ottawa",
+        "Montreal"
+      ],
+      "correcta": 1,
+      "dato": "La eligió la reina Victoria en 1857."
+    },
+    {
+      "tipo": "pregunta",
+      "texto": "¿Cuál es la capital de Brasil?",
+      "opciones": [
+        "Río de Janeiro",
+        "São Paulo",
+        "Brasilia"
+      ],
+      "correcta": 2,
+      "dato": "Brasilia es la capital desde 1960."
+    },
+    {
+      "tipo": "pregunta",
+      "texto": "¿Cuál es la capital de Ecuador?",
+      "opciones": [
+        "Guayaquil",
+        "Quito",
+        "Cuenca"
+      ],
+      "correcta": 1
+    },
+    {
+      "tipo": "pregunta",
+      "texto": "¿Cuál es la capital de Honduras?",
+      "opciones": [
+        "San Pedro Sula",
+        "La Ceiba",
+        "Tegucigalpa"
+      ],
+      "correcta": 2
+    },
+    {
+      "tipo": "pregunta",
+      "texto": "¿Cuál es la capital de Belice?",
+      "opciones": [
+        "Ciudad de Belice",
+        "Belmopán",
+        "San Ignacio"
+      ],
+      "correcta": 1,
+      "dato": "Belmopán es la capital desde 1970."
+    },
+    {
+      "tipo": "cierre",
+      "texto": "¿Cuántas acertaste? Escríbelo en los comentarios"
+    }
+  ],
+  "volumen_musica": 0.28
+}

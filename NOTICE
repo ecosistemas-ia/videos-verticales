@@ -1,0 +1,24 @@
+Videos verticales con 12 estilos
+Copyright (c) 2026 Marcelo Camacho
+
+El código de este repositorio se distribuye con la licencia MIT (archivo LICENSE): puedes usarlo, cambiarlo y
+compartirlo, también con fines comerciales, si conservas el aviso de autor.
+
+Fuera de la licencia MIT
+- El nombre «Ecosistemas IA», el dominio ecosistemasia.com y su logotipo. Puedes decir que tu trabajo parte de este
+  kit, pero no presentarlo como un producto de Ecosistemas IA.
+
+Lo que el kit usa y tiene su propia licencia
+- Remotion (https://www.remotion.dev), el motor de los videos, no es software libre. Es gratis para personas,
+  empresas de hasta 3 empleados y organizaciones sin fines de lucro, también para uso comercial; las demás
+  necesitan su licencia de empresa: https://www.remotion.dev/license. Se instala con npm: este repositorio no
+  incluye su código.
+- Las fuentes tipográficas (@fontsource): OFL-1.1.
+- Los iconos de Phosphor (@phosphor-icons/core): MIT. Los trazados copiados en src/estilos/pantallas/iconos.ts
+  llevan su aviso en src/estilos/pantallas/LICENCIAS.md.
+- La música y los efectos de recursos/: CC0-1.0. El origen y la licencia de cada archivo están en
+  recursos/licencias.json.
+- La voz gratis: el modelo Kokoro-82M (Apache-2.0) y kokoro-onnx (MIT) se descargan al instalar. kokoro-onnx usa
+  phonemizer y espeak-ng, que son GPL-3.0, para la pronunciación; también se instalan en tu computadora y no están
+  en este repositorio. Los videos que produces son tuyos.
+- React, three.js, React Three Fiber y zod: MIT.

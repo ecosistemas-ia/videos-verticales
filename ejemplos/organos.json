@@ -1,0 +1,229 @@
+{
+  "estilo": "organos",
+  "titulo": "Qué le pasa a tu cuerpo cuando no duermes",
+  "subtitulos": "frase",
+  "musica": "comica-02.mp3",
+  "marca": {
+    "nombre": "@tucanal",
+    "acento": "#FFD23F"
+  },
+  "ajustes": {
+    "fondo": "cuerpo",
+    "contorno": "#2E1A3F",
+    "mostrar_fuente": true
+  },
+  "escenas": [
+    {
+      "texto": "¿Qué le pasa a tu cuerpo cuando no duermes? Tus órganos te lo cuentan.",
+      "habla": "narrador",
+      "fondo": "noche",
+      "rotulo": "Una noche sin dormir",
+      "personajes": [
+        {
+          "personaje": "cerebro",
+          "x": "centro_izquierda",
+          "emocion": "cansado",
+          "accion": "bosteza",
+          "retraso": 0.6
+        },
+        {
+          "personaje": "corazon",
+          "x": "centro_derecha",
+          "emocion": "sorprendido",
+          "accion": "quieto"
+        }
+      ]
+    },
+    {
+      "texto": "Soy tu cerebro. Diecisiete horas despierto me afectan como 0,05% de alcohol en la sangre.",
+      "habla": "cerebro",
+      "fondo": "cerebro",
+      "rotulo": "17 horas despierto",
+      "dato": "0,05 %",
+      "fuente": "CDC NIOSH, Driver Fatigue on the Job",
+      "personajes": [
+        {
+          "personaje": "cerebro",
+          "x": "centro_izquierda",
+          "emocion": "mareado",
+          "accion": "tiembla"
+        }
+      ]
+    },
+    {
+      "texto": "Y veinticuatro horas, como 0,10%. Con sueño, no manejes.",
+      "habla": "cerebro",
+      "fondo": "cerebro",
+      "rotulo": "24 horas despierto",
+      "dato": "0,10 %",
+      "fuente": "CDC NIOSH, Driver Fatigue on the Job",
+      "personajes": [
+        {
+          "personaje": "cerebro",
+          "x": "centro_izquierda",
+          "emocion": "mareado",
+          "accion": "se_desmaya",
+          "retraso": 1.2
+        }
+      ]
+    },
+    {
+      "texto": "Y yo tengo más hambre: sin dormir sube la grelina, que da hambre, y baja la leptina, que dice basta.",
+      "habla": "estomago",
+      "fondo": "estomago",
+      "rotulo": "Más hambre",
+      "fuente": "NHLBI (NIH), Sleep Deprivation and Deficiency",
+      "personajes": [
+        {
+          "personaje": "estomago",
+          "x": "centro_izquierda",
+          "emocion": "feliz",
+          "accion": "salta",
+          "globo": "¿Quedan galletas?",
+          "retraso": 0.4
+        },
+        {
+          "personaje": "higado",
+          "x": "derecha",
+          "emocion": "sorprendido",
+          "accion": "quieto",
+          "escala": 0.9
+        }
+      ]
+    },
+    {
+      "texto": "Sin descanso, te defiendo peor. En un estudio, quien dormía menos de seis horas se resfrió unas cuatro veces más que quien dormía más de siete.",
+      "habla": "globulo_blanco",
+      "fondo": "sangre",
+      "rotulo": "Defensas bajas",
+      "dato": "x4",
+      "fuente": "Prather y otros, revista Sleep, 2015",
+      "personajes": [
+        {
+          "personaje": "globulo_blanco",
+          "x": "centro_izquierda",
+          "emocion": "cansado",
+          "accion": "suda"
+        },
+        {
+          "personaje": "globulo_rojo",
+          "x": "derecha",
+          "emocion": "asustado",
+          "accion": "tiembla",
+          "escala": 0.85
+        }
+      ]
+    },
+    {
+      "texto": "Cuando duermes, bajo el ritmo y la presión. Si duermes poco, sube el riesgo de presión alta y de enfermedad del corazón.",
+      "habla": "corazon",
+      "fondo": "cuerpo",
+      "rotulo": "Tu corazón también",
+      "fuente": "NHLBI (NIH), Why Is Sleep Important?",
+      "personajes": [
+        {
+          "personaje": "corazon",
+          "x": "centro_izquierda",
+          "emocion": "triste",
+          "accion": "trabaja"
+        },
+        {
+          "personaje": "pulmones",
+          "x": "derecha",
+          "emocion": "neutral",
+          "accion": "quieto",
+          "escala": 0.85
+        }
+      ]
+    },
+    {
+      "texto": "Los adultos necesitan dormir de siete a nueve horas cada noche.",
+      "habla": "narrador",
+      "fondo": "cuerpo",
+      "rotulo": "Duerme de 7 a 9 horas",
+      "dato": "7-9 h",
+      "fuente": "NHLBI (NIH), How Much Sleep Is Enough?",
+      "personajes": [
+        {
+          "personaje": "cerebro",
+          "x": "izquierda",
+          "emocion": "orgulloso",
+          "accion": "celebra",
+          "retraso": 0.3
+        },
+        {
+          "personaje": "corazon",
+          "x": "centro",
+          "emocion": "feliz",
+          "accion": "celebra"
+        },
+        {
+          "personaje": "estomago",
+          "x": "derecha",
+          "emocion": "feliz",
+          "accion": "celebra",
+          "retraso": 0.15
+        }
+      ]
+    },
+    {
+      "texto": "Así que apaga la pantalla y a dormir.",
+      "habla": "narrador",
+      "fondo": "noche",
+      "rotulo": "Buenas noches",
+      "personajes": [
+        {
+          "personaje": "cerebro",
+          "x": "izquierda",
+          "emocion": "feliz",
+          "accion": "duerme"
+        },
+        {
+          "personaje": "corazon",
+          "x": "centro",
+          "emocion": "feliz",
+          "accion": "duerme"
+        },
+        {
+          "personaje": "estomago",
+          "x": "derecha",
+          "emocion": "feliz",
+          "accion": "duerme"
+        }
+      ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "NHLBI (NIH), How Sleep Works: How Much Sleep Is Enough? (actualizada el 24/03/2022). Adultos: 7 a 9 horas",
+      "url": "https://www.nhlbi.nih.gov/health/sleep/how-much-sleep",
+      "fecha": "2026-11-20"
+    },
+    {
+      "titulo": "NHLBI (NIH), Sleep Deprivation and Deficiency: How Sleep Affects Your Health (actualizada el 15/06/2022). Grelina y leptina",
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects",
+      "fecha": "2026-11-20"
+    },
+    {
+      "titulo": "CDC NIOSH, Driver Fatigue on the Job (actualizada el 28/10/2026). 17 h despierto, como 0,05 % de alcohol; 24 h, como 0,10 %",
+      "url": "https://www.cdc.gov/niosh/motor-vehicle/driver-fatigue/index.html",
+      "fecha": "2026-11-20"
+    },
+    {
+      "titulo": "Prather y otros (2015), Behaviorally Assessed Sleep and Susceptibility to the Common Cold, Sleep 38(9):1353-1359. Menos de 6 h: 4,2 veces más resfriados que más de 7 h",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26118561/",
+      "fecha": "2026-11-20"
+    },
+    {
+      "titulo": "Carnegie Mellon University, nota de prensa del estudio de Prather y otros (31/08/2015)",
+      "url": "https://www.cmu.edu/news/stories/archives/2015/august/sleep-and-sickness.html",
+      "fecha": "2026-11-20"
+    },
+    {
+      "titulo": "NHLBI (NIH), How Sleep Works: Why Is Sleep Important? (actualizada el 24/03/2022). Presión y pulso bajan; más riesgo de hipertensión y enfermedad coronaria",
+      "url": "https://www.nhlbi.nih.gov/health/sleep/why-sleep-important",
+      "fecha": "2026-11-20"
+    }
+  ],
+  "volumen_musica": 0.25
+}

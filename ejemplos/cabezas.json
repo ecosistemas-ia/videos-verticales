@@ -1,0 +1,223 @@
+{
+  "estilo": "cabezas",
+  "titulo": "La guerra del cerdo",
+  "subtitulos": "frase",
+  "musica": "comica-01.mp3",
+  "marca": {
+    "nombre": "@tucanal",
+    "acento": "#F2B33D"
+  },
+  "ajustes": {
+    "paleta": "calida",
+    "hora": "tarde",
+    "gancho": "Casi hubo una guerra por un cerdo",
+    "desenfoque": true
+  },
+  "escenas": [
+    {
+      "texto": "En 1859, Estados Unidos y Gran Bretaña se disputaban las islas San Juan.",
+      "decorado": "campo",
+      "plano": "general",
+      "rotulo": "Isla San Juan, 1859",
+      "personajes": [
+        {
+          "rol": "granjero",
+          "accion": "saluda",
+          "posicion": "izquierda",
+          "mira": "camara"
+        },
+        {
+          "rol": "cerdo",
+          "accion": "quieto",
+          "posicion": "fondo_derecha"
+        }
+      ]
+    },
+    {
+      "texto": "Un granjero estadounidense encontró a un cerdo comiéndose su huerto.",
+      "decorado": "campo",
+      "plano": "medio",
+      "personajes": [
+        {
+          "rol": "granjero",
+          "accion": "sorprende",
+          "posicion": "izquierda"
+        },
+        {
+          "rol": "cerdo",
+          "accion": "camina",
+          "posicion": "derecha"
+        }
+      ]
+    },
+    {
+      "texto": "Le disparó. El cerdo era de una compañía británica.",
+      "decorado": "campo",
+      "plano": "medio",
+      "personajes": [
+        {
+          "rol": "granjero",
+          "accion": "señala",
+          "posicion": "izquierda"
+        },
+        {
+          "rol": "cerdo",
+          "accion": "cae",
+          "posicion": "derecha"
+        }
+      ]
+    },
+    {
+      "texto": "Ofreció pagarlo, pero los británicos amenazaron con arrestarlo.",
+      "decorado": "casa",
+      "plano": "medio",
+      "personajes": [
+        {
+          "rol": "granjero",
+          "accion": "habla",
+          "posicion": "izquierda",
+          "lleva": "bolsa"
+        },
+        {
+          "rol": "hombre",
+          "accion": "señala",
+          "posicion": "derecha"
+        }
+      ]
+    },
+    {
+      "texto": "Estados Unidos mandó 64 soldados para proteger a sus colonos.",
+      "decorado": "campamento",
+      "plano": "general",
+      "personajes": [
+        {
+          "rol": "soldado",
+          "accion": "camina",
+          "posicion": "centro",
+          "lleva": "bandera"
+        }
+      ],
+      "multitud": {
+        "rol": "soldado",
+        "accion": "camina",
+        "cantidad": 5
+      }
+    },
+    {
+      "texto": "Gran Bretaña respondió con tres barcos de guerra.",
+      "decorado": "barco",
+      "plano": "general",
+      "personajes": [
+        {
+          "rol": "capitan",
+          "accion": "señala",
+          "posicion": "centro",
+          "mira": "derecha",
+          "lleva": "catalejo"
+        },
+        {
+          "rol": "marinero",
+          "accion": "quieto",
+          "posicion": "fondo_izquierda"
+        },
+        {
+          "rol": "marinero",
+          "accion": "saluda",
+          "posicion": "fondo_derecha"
+        }
+      ]
+    },
+    {
+      "texto": "En agosto ya había 461 soldados frente a 52 cañones británicos.",
+      "decorado": "campamento",
+      "plano": "picado",
+      "hora": "noche",
+      "personajes": [
+        {
+          "rol": "soldado",
+          "accion": "quieto",
+          "posicion": "centro",
+          "lleva": "bandera"
+        }
+      ],
+      "multitud": {
+        "rol": "soldado",
+        "accion": "quieto",
+        "cantidad": 12
+      }
+    },
+    {
+      "texto": "Pero el almirante británico se negó a pelear por un cerdo.",
+      "decorado": "barco",
+      "plano": "primer_plano",
+      "personajes": [
+        {
+          "rol": "capitan",
+          "accion": "habla",
+          "posicion": "centro",
+          "mira": "camara"
+        },
+        {
+          "rol": "marinero",
+          "accion": "quieto",
+          "posicion": "fondo_derecha"
+        }
+      ]
+    },
+    {
+      "texto": "En 1872, el káiser alemán arbitró y le dio la isla a Estados Unidos.",
+      "decorado": "palacio",
+      "plano": "contrapicado",
+      "rotulo": "Octubre de 1872",
+      "personajes": [
+        {
+          "rol": "rey",
+          "accion": "habla",
+          "posicion": "centro",
+          "mira": "camara",
+          "lleva": "carta"
+        },
+        {
+          "rol": "soldado",
+          "accion": "celebra",
+          "posicion": "fondo_izquierda"
+        },
+        {
+          "rol": "capitan",
+          "accion": "quieto",
+          "posicion": "fondo_derecha"
+        }
+      ]
+    },
+    {
+      "texto": "¿La única baja de la Guerra del Cerdo? El cerdo.",
+      "decorado": "campo",
+      "plano": "medio",
+      "personajes": [
+        {
+          "rol": "granjero",
+          "accion": "piensa",
+          "posicion": "izquierda"
+        },
+        {
+          "rol": "cerdo",
+          "accion": "cae",
+          "posicion": "derecha"
+        }
+      ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "The Pig War, San Juan Island National Historical Park (U.S. National Park Service)",
+      "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm",
+      "fecha": "2026-11-20"
+    },
+    {
+      "titulo": "Lyman Cutlar Homestead (U.S. National Park Service)",
+      "url": "https://www.nps.gov/places/lyman-cutlar-homestead.htm",
+      "fecha": "2026-11-20"
+    }
+  ],
+  "volumen_musica": 0.25
+}

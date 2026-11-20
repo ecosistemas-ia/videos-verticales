@@ -1,0 +1,91 @@
+{
+  "estilo": "surreal",
+  "titulo": "No vendo horas: construyo un sistema",
+  "subtitulos": "ninguno",
+  "musica": "tension-01.mp3",
+  "marca": {
+    "nombre": "@tucanal",
+    "acento": "#9BE15D"
+  },
+  "ajustes": {
+    "mayusculas": true,
+    "cromados": true,
+    "logo": true
+  },
+  "escenas": [
+    {
+      "plano": "objeto",
+      "arriba": ["¿Buscas un", { "texto": "Freelance", "estilo": "grande" }],
+      "objeto": "balanza",
+      "abajo": ["Y no sabes a quién elegir"],
+      "voz": "¿Buscas un freelance y no sabes a quién elegir?"
+    },
+    {
+      "plano": "objeto",
+      "arriba": ["Casi todos", { "texto": "Venden horas", "estilo": "grande" }],
+      "objeto": "caminante",
+      "segundo": "caminante",
+      "voz": "Casi todos venden horas."
+    },
+    {
+      "plano": "lista",
+      "items": ["Un logo", "Tres revisiones", "Entrega en dos semanas"],
+      "objeto": "monitor",
+      "voz": "Un logo. Tres revisiones. Entrega en dos semanas.",
+      "paso": "detalle"
+    },
+    {
+      "plano": "tablero",
+      "lineas": ["Tu negocio no", { "texto": "Compra horas", "estilo": "grande" }, "Compra", { "texto": "Criterio", "estilo": "clave" }],
+      "voz": "Tu negocio no compra horas. Compra criterio.",
+      "paso": "remolino"
+    },
+    {
+      "plano": "mesa",
+      "lineas": ["Por eso empiezo por", { "texto": "Tu negocio", "estilo": "grande" }],
+      "personas": 8
+    },
+    {
+      "plano": "chincheta",
+      "lineas": [{ "texto": "Diagnóstico", "estilo": "grande" }, "Entiendo antes de proponer"],
+      "objeto": "lupa",
+      "voz": "Diagnóstico: entiendo antes de proponer.",
+      "paso": "destello"
+    },
+    {
+      "plano": "chincheta",
+      "lineas": [{ "texto": "Sistema", "estilo": "grande" }, "Hecho para medir y mejorar"],
+      "objeto": "engranaje",
+      "voz": "Sistema: hecho para medir y mejorar."
+    },
+    {
+      "plano": "chincheta",
+      "lineas": [{ "texto": "Propiedad", "estilo": "grande" }, "Todo queda en tus manos"],
+      "objeto": "llave",
+      "voz": "Propiedad: todo queda en tus manos."
+    },
+    {
+      "plano": "objeto",
+      "arriba": ["Si no veo una", { "texto": "Oportunidad", "estilo": "grande" }, { "texto": "Real", "estilo": "media" }],
+      "abajo": ["Te lo digo"],
+      "objeto": "cayendo",
+      "camara": "cae",
+      "voz": "Si no veo una oportunidad real, te lo digo.",
+      "paso": "caida"
+    },
+    {
+      "plano": "frase",
+      "lineas": ["Por eso no vendo", { "texto": "Un paquete", "estilo": "grande" }, { "texto": "Cerrado", "estilo": "media" }],
+      "voz": "Por eso no vendo un paquete cerrado."
+    },
+    {
+      "plano": "frase",
+      "lineas": ["Construyo", { "texto": "Un sistema", "estilo": "grande" }],
+      "voz": "Construyo un sistema."
+    },
+    {
+      "plano": "cierre",
+      "lineas": ["Escríbeme y lo vemos juntos"]
+    }
+  ]
+}

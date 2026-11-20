@@ -1,0 +1,70 @@
+{
+  "estilo": "isometrico",
+  "titulo": "Ciudades esponja: la ciudad que se bebe la lluvia",
+  "subtitulos": "frase",
+  "musica": "tech-01.mp3",
+  "marca": { "nombre": "@tucanal", "acento": "#FF5C9A" },
+  "ajustes": {
+    "mundo": "ciudad_moderna",
+    "semilla": 7,
+    "fondo": "indigo",
+    "luz": "tarde",
+    "etiqueta": "Urbanismo"
+  },
+  "escenas": [
+    {
+      "texto": "¿Y si una ciudad pudiera beberse la lluvia, como una esponja?",
+      "plano": "general",
+      "lugar": "centro",
+      "rotulo": { "tipo": "titulo", "antetitulo": "Urbanismo y agua", "texto": "Ciudades esponja" }
+    },
+    {
+      "texto": "En una ciudad normal, el asfalto no deja pasar el agua y las calles se inundan.",
+      "plano": "acercamiento",
+      "lugar": "calle",
+      "clima": "lluvia"
+    },
+    {
+      "texto": "En una ciudad esponja, el suelo deja pasar el agua, que se guarda bajo tierra.",
+      "plano": "corte",
+      "lugar": "centro",
+      "nivel": [0.05, 0.5]
+    },
+    {
+      "texto": "Parques y orillas que se inundan a propósito, techos verdes y estanques retienen la lluvia.",
+      "plano": "detalle",
+      "lugar": "agua",
+      "rotulo": { "tipo": "lugar", "texto": "Orillas inundables" }
+    },
+    {
+      "texto": "La meta de China: absorber y reutilizar al menos el setenta por ciento de la lluvia.",
+      "plano": "general",
+      "lugar": "centro",
+      "clima": "despejado",
+      "nivel": 0.7,
+      "rotulo": { "tipo": "dato", "valor": "70 %", "texto": "del agua de lluvia" }
+    },
+    {
+      "texto": "Y que para 2030 lo consiga el ochenta por ciento de sus zonas urbanas.",
+      "plano": "alejamiento",
+      "lugar": "monumento",
+      "rotulo": { "tipo": "dato", "valor": "80 %", "texto": "de las zonas urbanas en 2030" }
+    },
+    {
+      "texto": "El programa arrancó en 2015, con treinta ciudades piloto.",
+      "plano": "paneo",
+      "lugar": "barrio",
+      "luz": "atardecer",
+      "rotulo": { "tipo": "anio", "desde": 2015, "hasta": 2015 }
+    },
+    {
+      "texto": "Menos inundaciones, y agua guardada para cuando no llueve.",
+      "plano": "general",
+      "lugar": "centro",
+      "luz": "noche"
+    }
+  ],
+  "fuentes": [
+    { "titulo": "China Daily, «'Sponge cities' absorb urban flooding woes» (19/10/2020): para 2030, el 80 % de las zonas urbanas debe absorber y reutilizar al menos el 70 % de la lluvia, según las directrices del Consejo de Estado de octubre de 2015; 30 ciudades piloto", "url": "https://www.chinadaily.com.cn/a/202010/19/WS5f8cd158a31024ad0ba7f656.html" }
+  ]
+}

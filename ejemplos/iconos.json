@@ -1,0 +1,208 @@
+{
+  "estilo": "iconos",
+  "titulo": "SEO o Google Ads: cuál te conviene",
+  "subtitulos": "frase",
+  "musica": "tech-01.mp3",
+  "efectos": true,
+  "marca": {
+    "nombre": "@tucanal",
+    "acento": "#EE4A58"
+  },
+  "ajustes": {
+    "color": "carmesi"
+  },
+  "escenas": [
+    {
+      "tipo": "titulo",
+      "texto": "La diferencia entre SEO y Google Ads, antes de gastar un centavo.",
+      "cursiva": "La diferencia entre",
+      "titulo": "SEO",
+      "subtitulo": "/ Google Ads",
+      "icono": "magnifying-glass",
+      "figura": "persona"
+    },
+    {
+      "tipo": "orbita",
+      "texto": "Los dos te ponen en Google cuando alguien busca lo que vendes.",
+      "figura": "bombilla",
+      "iconos": [
+        "magnifying-glass",
+        "cursor-click",
+        "coins",
+        "megaphone",
+        "chart-line-up",
+        "storefront",
+        "users-three"
+      ],
+      "orbita_en": "Google",
+      "latido_en": "vendes"
+    },
+    {
+      "tipo": "pregunta",
+      "texto": "¿Qué es el SEO?",
+      "cursiva": "¿Qué es el",
+      "titulo": "SEO"
+    },
+    {
+      "tipo": "figura",
+      "texto": "Es el trabajo que lleva tu sitio a los resultados gratuitos.",
+      "figura": "portatil",
+      "burbujas": [
+        {
+          "tipo": "mensaje",
+          "lado": "izquierda",
+          "en": "lleva"
+        },
+        {
+          "tipo": "check",
+          "lado": "derecha",
+          "en": "resultados"
+        },
+        {
+          "tipo": "corazon",
+          "lado": "arriba",
+          "en": "gratuitos"
+        }
+      ],
+      "latido_en": "gratuitos"
+    },
+    {
+      "tipo": "tarjetas",
+      "texto": "Aparecer ahí no cuesta nada: no pagas por clic. Pero no es rápido, y nadie te garantiza el primer lugar.",
+      "tarjetas": [
+        {
+          "titulo": "Tiene:",
+          "en": "Aparecer",
+          "items": [
+            {
+              "icono": "piggy-bank",
+              "texto": "Sin costo",
+              "en": "cuesta"
+            },
+            {
+              "icono": "cursor-click",
+              "texto": "Clics gratis",
+              "en": "pagas"
+            }
+          ]
+        },
+        {
+          "titulo": "No tiene:",
+          "en": "Pero",
+          "items": [
+            {
+              "icono": "lightning",
+              "texto": "Velocidad",
+              "en": "rápido"
+            },
+            {
+              "icono": "seal-check",
+              "texto": "Garantías"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "pregunta",
+      "texto": "Por otro lado, ¿qué es Google Ads?",
+      "cursiva": "¿Qué es",
+      "titulo": "Google Ads"
+    },
+    {
+      "tipo": "figura",
+      "texto": "Es publicidad: tu anuncio sale cuando alguien busca lo que ofreces.",
+      "figura": "megafono",
+      "burbujas": [
+        {
+          "tipo": "mensaje",
+          "lado": "izquierda",
+          "en": "anuncio"
+        }
+      ],
+      "icono_arriba": "cursor-click",
+      "icono_arriba_en": "busca"
+    },
+    {
+      "tipo": "tarjetas",
+      "texto": "Es rápido, tú pones el presupuesto y mides cada anuncio. Pero pagas cada clic, y no te sube en los resultados gratuitos.",
+      "tarjetas": [
+        {
+          "titulo": "Tiene:",
+          "en": "rápido",
+          "items": [
+            {
+              "icono": "lightning",
+              "texto": "Velocidad",
+              "en": "rápido"
+            },
+            {
+              "icono": "wallet",
+              "texto": "Presupuesto"
+            },
+            {
+              "icono": "chart-bar",
+              "texto": "Métricas",
+              "en": "mides"
+            }
+          ]
+        },
+        {
+          "titulo": "No tiene:",
+          "en": "Pero",
+          "items": [
+            {
+              "icono": "cursor-click",
+              "texto": "Clics gratis",
+              "en": "pagas"
+            },
+            {
+              "icono": "trend-up",
+              "texto": "Posición",
+              "en": "sube"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "nota",
+      "texto": "Google no vende posiciones en sus resultados gratuitos. Si puedes, combina los dos.",
+      "cursiva": "nota…"
+    },
+    {
+      "tipo": "cierre",
+      "texto": "Guárdalo y síguenos para más ideas de marketing.",
+      "invitacion": "Síguenos",
+      "icono": "bell-ringing"
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Google Search Central, «¿Necesitas un SEO?»: aparecer en los resultados orgánicos no cuesta nada; Google nunca acepta dinero para incluir o posicionar sitios; nadie puede garantizar el primer puesto; anunciarse con Google no afecta a la presencia en los resultados de búsqueda",
+      "url": "https://developers.google.com/search/docs/fundamentals/do-i-need-seo",
+      "fecha": "2026-11-20"
+    },
+    {
+      "titulo": "Google Search Central, «Guía de optimización en buscadores (SEO) para principiantes»: algunos cambios tardan unas horas en notarse y otros varios meses",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "fecha": "2026-11-20"
+    },
+    {
+      "titulo": "Ayuda de Google Ads, «Google Ads: definición»: llega a las personas cuando les interesa lo que ofreces; tú fijas y controlas tu presupuesto; puedes medir el impacto de tu anuncio",
+      "url": "https://support.google.com/google-ads/answer/6319",
+      "fecha": "2026-11-20"
+    },
+    {
+      "titulo": "Ayuda de Google Ads, «Acerca del proceso de revisión de anuncios»: la mayoría de los anuncios se revisan en un día hábil",
+      "url": "https://support.google.com/google-ads/answer/1722120",
+      "fecha": "2026-11-20"
+    },
+    {
+      "titulo": "Ayuda de Google Ads, «Costo por clic (CPC): definición»: con las ofertas de CPC pagas por cada clic en tus anuncios",
+      "url": "https://support.google.com/google-ads/answer/116495",
+      "fecha": "2026-11-20"
+    }
+  ],
+  "volumen_musica": 0.25
+}

@@ -1,0 +1,3 @@
+# Configuración de Codex para este proyecto (Codex la aplica si confías en la carpeta).
+# La búsqueda web en vivo: el microsistema investiga y verifica los datos de cada video.
+web_search = "live"

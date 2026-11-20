@@ -1,0 +1,366 @@
+{
+  "estilo": "sombras",
+  "titulo": "La leyenda de los volcanes",
+  "subtitulos": "frase",
+  "musica": "epica-02.mp3",
+  "marca": {
+    "nombre": "@tucanal",
+    "acento": "#FFB547"
+  },
+  "ajustes": {
+    "ambiente": "calido",
+    "varillas": true,
+    "calados": true,
+    "telon": "#7A1622",
+    "abrir_y_cerrar": true
+  },
+  "escenas": [
+    {
+      "texto": "Cuenta la leyenda que, hace muchos siglos, en el valle de México vivía una princesa llamada Iztaccíhuatl.",
+      "titulo": "La leyenda de los volcanes",
+      "ambiente": "alba",
+      "transicion": "corte",
+      "decorado": [
+        {
+          "elemento": "montana_dormida",
+          "x": 0.22,
+          "capa": "fondo",
+          "escala": 0.8
+        },
+        {
+          "elemento": "volcan",
+          "x": 0.82,
+          "capa": "fondo",
+          "escala": 0.95
+        },
+        {
+          "elemento": "nube",
+          "x": 0.45,
+          "capa": "fondo",
+          "altura": 0.6
+        },
+        {
+          "elemento": "templo",
+          "x": 0.12,
+          "capa": "medio",
+          "escala": 0.75
+        },
+        {
+          "elemento": "nopal",
+          "x": 0.95,
+          "capa": "frente",
+          "escala": 0.7
+        }
+      ],
+      "figuras": [
+        {
+          "figura": "princesa",
+          "x": 0.6,
+          "accion": "aparece",
+          "objeto": "flor",
+          "mira": "izquierda",
+          "retraso": 0.8
+        }
+      ]
+    },
+    {
+      "texto": "Ella amaba a Popocatépetl, el guerrero más valiente de su pueblo.",
+      "decorado": [
+        {
+          "elemento": "montana",
+          "x": 0.3,
+          "capa": "fondo",
+          "escala": 0.9
+        },
+        {
+          "elemento": "arbol",
+          "x": 0.9,
+          "capa": "medio",
+          "escala": 0.95
+        },
+        {
+          "elemento": "pasto",
+          "x": 0.08,
+          "capa": "frente"
+        }
+      ],
+      "figuras": [
+        {
+          "figura": "guerrero",
+          "x": "fuera_izquierda",
+          "accion": "camina",
+          "hasta": 0.3
+        },
+        {
+          "figura": "princesa",
+          "x": 0.66,
+          "accion": "quieto",
+          "objeto": "flor",
+          "mira": "izquierda"
+        }
+      ]
+    },
+    {
+      "texto": "Llegó la guerra. Su padre le prometió que, si volvía vencedor, podría casarse con ella.",
+      "ambiente": "fuego",
+      "transicion": "telon",
+      "decorado": [
+        {
+          "elemento": "templo",
+          "x": 0.5,
+          "capa": "fondo",
+          "escala": 1.15
+        },
+        {
+          "elemento": "hoguera",
+          "x": 0.5,
+          "capa": "medio",
+          "escala": 0.6
+        }
+      ],
+      "figuras": [
+        {
+          "figura": "rey",
+          "x": 0.76,
+          "accion": "senala",
+          "mira": "izquierda"
+        },
+        {
+          "figura": "guerrero",
+          "x": 0.24,
+          "accion": "se_inclina",
+          "mira": "derecha",
+          "retraso": 0.8
+        }
+      ]
+    },
+    {
+      "texto": "Popocatépetl partió y luchó con valor durante meses.",
+      "ambiente": "fuego",
+      "transicion": "luz",
+      "decorado": [
+        {
+          "elemento": "montana",
+          "x": 0.6,
+          "capa": "fondo"
+        },
+        {
+          "elemento": "rocas",
+          "x": 0.08,
+          "capa": "frente",
+          "escala": 1.1
+        },
+        {
+          "elemento": "nopal",
+          "x": 0.92,
+          "capa": "medio",
+          "escala": 0.8
+        }
+      ],
+      "figuras": [
+        {
+          "figura": "guerrero",
+          "x": 0.22,
+          "accion": "lucha",
+          "mira": "derecha"
+        },
+        {
+          "figura": "guerrero",
+          "x": 0.74,
+          "accion": "lucha",
+          "mira": "izquierda",
+          "objeto": "espada",
+          "retraso": 0.45
+        }
+      ]
+    },
+    {
+      "texto": "Pero un rival celoso engañó a la princesa: le dijo que su amado había muerto en batalla.",
+      "ambiente": "noche",
+      "transicion": "fundido",
+      "decorado": [
+        {
+          "elemento": "luna",
+          "x": 0.55,
+          "altura": 0.85
+        },
+        {
+          "elemento": "casa",
+          "x": 0.06,
+          "capa": "medio",
+          "escala": 0.9
+        },
+        {
+          "elemento": "arbol",
+          "x": 0.95,
+          "capa": "fondo",
+          "escala": 1.1
+        }
+      ],
+      "figuras": [
+        {
+          "figura": "hombre",
+          "x": 0.3,
+          "accion": "habla",
+          "mira": "derecha"
+        },
+        {
+          "figura": "princesa",
+          "x": 0.7,
+          "accion": "llora",
+          "mira": "izquierda",
+          "retraso": 1.2
+        }
+      ]
+    },
+    {
+      "texto": "Iztaccíhuatl murió de tristeza.",
+      "ambiente": "noche",
+      "transicion": "fundido",
+      "decorado": [
+        {
+          "elemento": "estrellas"
+        },
+        {
+          "elemento": "luna",
+          "x": 0.2,
+          "altura": 0.8
+        },
+        {
+          "elemento": "arbol",
+          "x": 0.88,
+          "capa": "medio"
+        }
+      ],
+      "figuras": [
+        {
+          "figura": "princesa",
+          "x": 0.42,
+          "accion": "cae",
+          "mira": "derecha"
+        }
+      ]
+    },
+    {
+      "texto": "Cuando Popocatépetl volvió victorioso, la encontró sin vida y la llevó a lo alto de una montaña.",
+      "ambiente": "noche",
+      "transicion": "luz",
+      "decorado": [
+        {
+          "elemento": "estrellas"
+        },
+        {
+          "elemento": "montana",
+          "x": 0.7,
+          "capa": "fondo",
+          "escala": 1.1
+        },
+        {
+          "elemento": "rocas",
+          "x": 0.7,
+          "capa": "medio",
+          "escala": 1.7
+        }
+      ],
+      "figuras": [
+        {
+          "figura": "princesa",
+          "x": 0.7,
+          "accion": "yace",
+          "mira": "izquierda",
+          "altura": 0.13
+        },
+        {
+          "figura": "guerrero",
+          "x": "fuera_izquierda",
+          "accion": "camina",
+          "hasta": 0.13,
+          "objeto": "antorcha"
+        }
+      ]
+    },
+    {
+      "texto": "Allí se arrodilló a su lado con una antorcha encendida, para velar su sueño.",
+      "ambiente": "noche",
+      "transicion": "fundido",
+      "decorado": [
+        {
+          "elemento": "estrellas"
+        },
+        {
+          "elemento": "montana",
+          "x": 0.7,
+          "capa": "fondo",
+          "escala": 1.1
+        },
+        {
+          "elemento": "rocas",
+          "x": 0.7,
+          "capa": "medio",
+          "escala": 1.7
+        }
+      ],
+      "figuras": [
+        {
+          "figura": "princesa",
+          "x": 0.7,
+          "accion": "yace",
+          "mira": "izquierda",
+          "altura": 0.13
+        },
+        {
+          "figura": "guerrero",
+          "x": 0.13,
+          "accion": "arrodilla",
+          "objeto": "antorcha",
+          "mira": "derecha"
+        }
+      ]
+    },
+    {
+      "texto": "Los dioses los cubrieron de nieve y los volvieron volcanes: el Popocatépetl, que aún echa humo, y el Iztaccíhuatl, la mujer dormida.",
+      "titulo": "Popocatépetl e Iztaccíhuatl",
+      "ambiente": "alba",
+      "transicion": "telon",
+      "decorado": [
+        {
+          "elemento": "sol",
+          "x": 0.5,
+          "altura": 0.35,
+          "capa": "fondo"
+        },
+        {
+          "elemento": "nube",
+          "x": 0.7,
+          "capa": "fondo",
+          "altura": 0.55
+        },
+        {
+          "elemento": "montana_dormida",
+          "x": 0.3,
+          "capa": "medio",
+          "escala": 0.95
+        },
+        {
+          "elemento": "volcan",
+          "x": 0.82,
+          "capa": "medio",
+          "escala": 0.85
+        }
+      ],
+      "figuras": [
+        {
+          "figura": "ave",
+          "x": 0.95,
+          "accion": "vuela",
+          "hasta": 0.1,
+          "altura": 0.62,
+          "escala": 0.7,
+          "retraso": 0.5
+        }
+      ]
+    }
+  ],
+  "fuentes": [],
+  "volumen_musica": 0.25
+}

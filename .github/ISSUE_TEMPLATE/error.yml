@@ -1,0 +1,36 @@
+name: Algo falla
+description: Un error al instalar, al hacer un video o en un estilo
+labels: [error]
+body:
+  - type: textarea
+    id: que
+    attributes:
+      label: Qué pasó
+      description: Qué pediste y qué salió. Pega el mensaje de error completo.
+    validations:
+      required: true
+  - type: dropdown
+    id: asistente
+    attributes:
+      label: Asistente
+      options: [Claude Code, Codex, Otro]
+    validations:
+      required: true
+  - type: dropdown
+    id: sistema
+    attributes:
+      label: Sistema
+      options: [Windows, Mac, Linux]
+    validations:
+      required: true
+  - type: input
+    id: estilo
+    attributes:
+      label: Estilo, si es de uno concreto
+      placeholder: chat, quiz, ciudad...
+  - type: textarea
+    id: comprobar
+    attributes:
+      label: Resultado de la comprobación
+      description: Ejecuta `node scripts/comprobar.ts` en la carpeta del kit y pega lo que sale. No incluye tus claves.
+      render: text

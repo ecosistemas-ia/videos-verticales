@@ -1,0 +1,56 @@
+{
+  "name": "video-estilos",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Microsistema gratuito de videos verticales con 12 estilos dibujados con código (Remotion), para Claude Code y Codex en Windows y Mac",
+  "type": "module",
+  "scripts": {
+    "tipos": "tsc -p tsconfig.json",
+    "estudio": "remotion studio src/index.ts",
+    "preparar": "node scripts/preparar.ts",
+    "render": "node scripts/render.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/noto-serif-display": "5.3.0",
+    "@fontsource/alfa-slab-one": "5.3.0",
+    "@fontsource/allison": "5.3.0",
+    "@fontsource/anton": "5.3.0",
+    "@fontsource/arimo": "5.3.0",
+    "@fontsource/bowlby-one": "5.3.0",
+    "@fontsource/caveat-brush": "5.3.0",
+    "@fontsource/courier-prime": "5.3.0",
+    "@fontsource/cutive-mono": "5.3.0",
+    "@fontsource/dejavu-sans": "5.3.0",
+    "@fontsource/dm-serif-display": "5.3.0",
+    "@fontsource/gelasio": "5.3.0",
+    "@fontsource/indie-flower": "5.3.0",
+    "@fontsource/inter-tight": "5.3.0",
+    "@fontsource/montserrat": "5.3.0",
+    "@fontsource/open-sans": "5.3.0",
+    "@fontsource/oswald": "5.3.0",
+    "@fontsource/pixelify-sans": "5.3.0",
+    "@fontsource/poppins": "5.3.0",
+    "@fontsource/roboto": "5.3.0",
+    "@fontsource/urbanist": "5.3.0",
+    "@phosphor-icons/core": "2.1.1",
+    "@react-three/fiber": "9.8.1",
+    "@remotion/bundler": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "@remotion/three": "4.0.534",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.534",
+    "three": "0.186.1",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/three": "0.186.0",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}

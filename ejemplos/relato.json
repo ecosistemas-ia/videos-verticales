@@ -1,0 +1,88 @@
+{
+  "estilo": "relato",
+  "titulo": "Así una panadería de barrio construyó una costumbre",
+  "subtitulos": "ninguno",
+  "musica": "emotiva-01.mp3",
+  "marca": {
+    "nombre": "@tucanal",
+    "acento": "#C4553A"
+  },
+  "ajustes": {
+    "negocio": {
+      "nombre": "Espiga Lenta",
+      "color": "#C4553A",
+      "simbolo": "espiga",
+      "inventado": true
+    },
+    "producto": "bolsa",
+    "flores": true,
+    "logo": true
+  },
+  "escenas": [
+    {
+      "plano": "apertura",
+      "arriba": ["Así una panadería", { "texto": "de barrio", "estilo": "grande" }],
+      "abajo": ["construyó", { "texto": "una costumbre", "estilo": "grande" }],
+      "voz": "Así una panadería de barrio construyó una costumbre."
+    },
+    {
+      "plano": "producto",
+      "arriba": ["Más que pan"],
+      "abajo": ["vendía", { "texto": "un momento", "estilo": "grande" }],
+      "productos": ["hogaza", "croissant", "croissant"],
+      "voz": "Más que pan, vendía un momento."
+    },
+    { "plano": "tarjeta", "titulo": "Apostó por la experiencia", "dibujo": "fachada", "voz": "Apostó por la experiencia." },
+    { "plano": "tarjeta", "titulo": "El pan caliente a las siete", "dibujo": "reloj", "voz": "El pan caliente a las siete." },
+    { "plano": "tarjeta", "titulo": "Tu nombre en la bolsa", "dibujo": "bolsa", "voz": "Tu nombre en la bolsa." },
+    { "plano": "tarjeta", "titulo": "El pan dulce del domingo", "dibujo": "calendario", "voz": "El pan dulce del domingo." },
+    {
+      "plano": "producto",
+      "arriba": ["No era"],
+      "abajo": [{ "texto": "el pan", "estilo": "grande" }],
+      "productos": ["bolsa"],
+      "voz": "No era el pan."
+    },
+    {
+      "plano": "primer_plano",
+      "lineas": ["Era", "la", { "texto": "sensación", "estilo": "grande" }],
+      "producto": "bolsa",
+      "voz": "Era la sensación."
+    },
+    {
+      "plano": "frase",
+      "lineas": ["La panadería es inventada", "el dato", { "texto": "no", "estilo": "grande" }],
+      "voz": "La panadería es inventada. El dato, no."
+    },
+    {
+      "plano": "dato",
+      "titulo": "En Italia, de 2012 a 2024",
+      "etiqueta": "tiendas físicas",
+      "numero": "−21,4%",
+      "fuente": "Confcommercio, 15/11/2025",
+      "voz": "En Italia, de 2012 a 2024, el número de tiendas físicas bajó un 21,4%."
+    },
+    {
+      "plano": "primer_plano",
+      "lineas": ["Las de alimentación", { "texto": "especializada", "estilo": "grande" }, "solo un", { "texto": "5,7% menos", "estilo": "grande" }],
+      "producto": "hogaza",
+      "voz": "Las de alimentación especializada, solo un 5,7% menos."
+    },
+    {
+      "plano": "frase",
+      "lineas": ["Y tu negocio", { "texto": "¿qué sensación", "estilo": "grande" }, "deja?"],
+      "voz": "Y tu negocio, ¿qué sensación deja?"
+    },
+    {
+      "plano": "cierre",
+      "lineas": ["Guárdalo para cuando lo necesites"]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Confcommercio, comunicado 176/2025 sobre la desertificación comercial, tabla 1: comercio minorista en sede fija de 551,3 a 433,6 mil empresas (−21,4 %) y alimentación especializada de 80,8 a 76,2 mil (−5,7 %), 2012-2024. Cubre toda la alimentación especializada, no solo panaderías; es una comparación, no una causa.",
+      "url": "https://www.confcommerciomilano.it/export/sites/unione/doc/news_comunicati/pdf/2025/176-15.11.2025-Confcommercio-su-desertificazione-commerciale.pdf",
+      "fecha": "2025-11-15"
+    }
+  ]
+}

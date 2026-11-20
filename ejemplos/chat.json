@@ -1,0 +1,62 @@
+{
+  "estilo": "chat",
+  "titulo": "El cliente del logo de 20 euros",
+  "subtitulos": "ninguno",
+  "musica": "lofi-01.mp3",
+  "marca": {
+    "nombre": "@tucanal",
+    "acento": "#C8F031"
+  },
+  "ajustes": {
+    "contacto": "Cliente nuevo",
+    "gancho": "Un cliente me escribió esto a las 23:47",
+    "tema": "oscuro"
+  },
+  "escenas": [
+    {
+      "de": "otro",
+      "texto": "¡Hola! Necesito un logo rapidito para mañana"
+    },
+    {
+      "de": "yo",
+      "texto": "Claro, ¿qué presupuesto tienes?"
+    },
+    {
+      "de": "otro",
+      "texto": "Unos 20 €, es algo sencillo"
+    },
+    {
+      "de": "otro",
+      "texto": "Solo el nombre y un dibujito"
+    },
+    {
+      "de": "yo",
+      "texto": "Un logo bien hecho lleva varias horas de trabajo"
+    },
+    {
+      "de": "otro",
+      "texto": "Pero con IA es un clic, ¿no?"
+    },
+    {
+      "de": "narrador",
+      "texto": "Y aquí empieza lo interesante."
+    },
+    {
+      "de": "yo",
+      "texto": "Con IA tardo menos, sí. Por eso te cobro por el resultado, no por las horas"
+    },
+    {
+      "de": "otro",
+      "texto": "¿Y cuánto sería?"
+    },
+    {
+      "de": "yo",
+      "texto": "150 €, con tres propuestas y los archivos listos para redes"
+    },
+    {
+      "de": "otro",
+      "texto": "Trato hecho. ¿Me pasas los datos para pagarte?"
+    }
+  ],
+  "volumen_musica": 0.3
+}

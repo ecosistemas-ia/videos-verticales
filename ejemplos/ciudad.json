@@ -1,0 +1,78 @@
+{
+  "estilo": "ciudad",
+  "titulo": "Tenochtitlan, la ciudad sobre el lago",
+  "subtitulos": "frase",
+  "musica": "epica-01.mp3",
+  "marca": { "nombre": "@tucanal", "acento": "#F2B84B" },
+  "ajustes": {
+    "mundo": "ciudad_antigua",
+    "semilla": 7,
+    "luz": "manana",
+    "etiqueta": "Historia · México",
+    "vida": "normal"
+  },
+  "escenas": [
+    {
+      "texto": "Tenochtitlan, la capital mexica, flotaba en medio de un lago.",
+      "plano": "general",
+      "lugar": "centro",
+      "rotulo": { "tipo": "titulo", "antetitulo": "La ciudad sobre el lago", "texto": "Tenochtitlan" }
+    },
+    {
+      "texto": "Todo empezó en 1325, en un islote pantanoso. En menos de dos siglos se convirtió en una gran ciudad.",
+      "plano": "aereo",
+      "lugar": "centro",
+      "ciudad": [0.04, 1],
+      "rotulo": { "tipo": "anio", "desde": 1325, "hasta": 1519 }
+    },
+    {
+      "texto": "En el centro se alzaba el Templo Mayor, con dos santuarios: uno a Tláloc y otro a Huitzilopochtli.",
+      "plano": "acercamiento",
+      "lugar": "monumento",
+      "rotulo": { "tipo": "lugar", "texto": "Templo Mayor" }
+    },
+    {
+      "texto": "En su última etapa medía unos cuarenta y cinco metros de alto, según el INAH.",
+      "plano": "orbita",
+      "lugar": "monumento",
+      "rotulo": { "tipo": "medida", "valor": "45", "unidad": "m" }
+    },
+    {
+      "texto": "Tres calzadas la unían a tierra firme, y las canoas recorrían sus canales.",
+      "plano": "recorrido",
+      "lugar": "agua",
+      "luz": "mediodia"
+    },
+    {
+      "texto": "Alrededor, las chinampas, huertos construidos sobre el agua, daban maíz, frijol, chile y flores.",
+      "plano": "detalle",
+      "lugar": "campos",
+      "rotulo": { "tipo": "lugar", "texto": "Chinampas" }
+    },
+    {
+      "texto": "Hernán Cortés escribió que en el mercado de Tlatelolco se juntaban cada día más de sesenta mil personas.",
+      "plano": "acercamiento",
+      "lugar": "mercado",
+      "luz": "tarde",
+      "rotulo": { "tipo": "dato", "valor": "60.000", "texto": "personas al día, según Cortés" }
+    },
+    {
+      "texto": "En 1521, tras un largo asedio, la ciudad cayó.",
+      "plano": "alejamiento",
+      "lugar": "monumento",
+      "luz": "atardecer",
+      "rotulo": { "tipo": "anio", "hasta": 1521 }
+    },
+    {
+      "texto": "Sobre sus ruinas se levantó la Ciudad de México.",
+      "plano": "general",
+      "lugar": "centro",
+      "luz": "noche"
+    }
+  ],
+  "fuentes": [
+    { "titulo": "INAH, guía de la Zona Arqueológica Templo Mayor (altura de unos 45 m en la última etapa)", "url": "https://difusion.inah.gob.mx/images/guias/115_zona-arqueologica-templo-mayor.pdf" },
+    { "titulo": "Hernán Cortés, Segunda Carta de Relación (1520): «arriba de sesenta mil ánimas» en el mercado de Tlatelolco. Estudio de UNAM Noticonquista", "url": "https://www.noticonquista.unam.mx/sites/default/files/2020-10/martinez-segunda-carta-de-relacion-final.pdf" },
+    { "titulo": "Encyclopaedia Britannica, «Tenochtitlán» (fundación hacia 1325, calzadas, caída en 1521)", "url": "https://www.britannica.com/place/Tenochtitlan" }
+  ]
+}

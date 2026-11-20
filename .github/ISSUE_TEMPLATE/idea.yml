@@ -1,0 +1,16 @@
+name: Una idea
+description: Un estilo nuevo, una mejora o algo que echas en falta
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Tu idea
+      description: Qué te gustaría que hiciera el kit. Si es un estilo, un enlace a un video de ejemplo ayuda mucho.
+    validations:
+      required: true
+  - type: textarea
+    id: para
+    attributes:
+      label: Para qué la usarías
+      description: Tu canal o tu nicho, y qué video harías con ella.

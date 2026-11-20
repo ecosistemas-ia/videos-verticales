@@ -37,7 +37,7 @@ El contrato está en `src/comun/reglas.ts` y `src/comun/guion.ts`. Los ejemplos 
 - **Funciona sin imágenes.** Todo estilo tiene que verse bien solo con código. Si acepta imágenes opcionales, el
   guion las nombra como `imagenes/<archivo>` dentro de la carpeta del video y se cargan con `staticFile`.
 - **Textos del guion, no del código.** Lo que se lee en pantalla viene del guion o de los ajustes, en español. Nada de
-  textos fijos en otro idioma, nada de marcas ajenas ni del propio kit. La marca del usuario está en
+  textos fijos en otro idioma, nada de marcas ajenas ni del propio microsistema. La marca del usuario está en
   `props.guion.marca` (nombre y color de acento).
 - **Familia.** `reglas.familia`: una de `FAMILIAS` (`src/comun/reglas.ts`). La lista de estilos, la galería y las
   skills agrupan por ella; no se escriben familias a mano en ningún otro sitio.

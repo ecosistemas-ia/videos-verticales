@@ -6,9 +6,9 @@ compartirlo, también con fines comerciales, si conservas el aviso de autor.
 
 Fuera de la licencia MIT
 - El nombre «Ecosistemas IA», el dominio ecosistemasia.com y su logotipo. Puedes decir que tu trabajo parte de este
-  kit, pero no presentarlo como un producto de Ecosistemas IA.
+  microsistema, pero no presentarlo como un producto de Ecosistemas IA.
 
-Lo que el kit usa y tiene su propia licencia
+Lo que el microsistema usa y tiene su propia licencia
 - Remotion (https://www.remotion.dev), el motor de los videos, no es software libre. Es gratis para personas,
   empresas de hasta 3 empleados y organizaciones sin fines de lucro, también para uso comercial; las demás
   necesitan su licencia de empresa: https://www.remotion.dev/license. Se instala con npm: este repositorio no

@@ -6,7 +6,7 @@ body:
     id: idea
     attributes:
       label: Tu idea
-      description: Qué te gustaría que hiciera el kit. Si es un estilo, un enlace a un video de ejemplo ayuda mucho.
+      description: Qué te gustaría que hiciera el microsistema. Si es un estilo, un enlace a un video de ejemplo ayuda mucho.
     validations:
       required: true
   - type: textarea

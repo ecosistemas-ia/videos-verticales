@@ -3,6 +3,10 @@
 Todas las versiones de Videos verticales con 12 estilos, de la más nueva a la más antigua.
 
 
+## [0.1.1] - 2026-11-20
+
+- Los textos dicen «microsistema» en lugar de «kit».
+
 ## 0.1.0 · 2026-11-20
 
 - Motor común en Remotion: guion por estilo, voz por escena, subtítulos, música y efectos, render desde Node y

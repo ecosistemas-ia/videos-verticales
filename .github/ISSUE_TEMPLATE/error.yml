@@ -32,5 +32,5 @@ body:
     id: comprobar
     attributes:
       label: Resultado de la comprobación
-      description: Ejecuta `node scripts/comprobar.ts` en la carpeta del kit y pega lo que sale. No incluye tus claves.
+      description: Ejecuta `node scripts/comprobar.ts` en la carpeta del microsistema y pega lo que sale. No incluye tus claves.
       render: text

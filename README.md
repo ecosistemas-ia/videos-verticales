@@ -74,9 +74,9 @@ error, copia el mensaje completo y di si usas Claude Code o Codex, en Windows o 
 
 ## Licencia
 
-MIT, de Marcelo Camacho: puedes usar, cambiar y compartir el kit, también con fines comerciales, si conservas el
+MIT, de Marcelo Camacho: puedes usar, cambiar y compartir el microsistema, también con fines comerciales, si conservas el
 aviso de autor (`LICENSE`). El nombre y el logotipo de Ecosistemas IA quedan fuera de la licencia.
 
-Lo que el kit usa tiene sus propias licencias, todas en `NOTICE`. La más importante: **Remotion**, el motor de los
+Lo que el microsistema usa tiene sus propias licencias, todas en `NOTICE`. La más importante: **Remotion**, el motor de los
 videos, es gratis para personas, empresas de hasta 3 empleados y organizaciones sin fines de lucro, también para uso
 comercial. Las empresas más grandes necesitan su licencia de pago: https://www.remotion.dev/license

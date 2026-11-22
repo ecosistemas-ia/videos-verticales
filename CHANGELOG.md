@@ -3,6 +3,10 @@
 Todas las versiones de Videos verticales con 12 estilos, de la más nueva a la más antigua.
 
 
+## [0.1.2] - 2026-11-22
+
+- Los videos vuelven a renderizar en Mac: Remotion fijado a 4.0.532, con el navegador de render Chrome for Testing 149. El de 4.0.534 (Chromium 157) se cerraba al cargar cualquier página en macOS 26.6.
+
 ## [0.1.1] - 2026-11-20
 
 - Los textos dicen «microsistema» en lugar de «kit».

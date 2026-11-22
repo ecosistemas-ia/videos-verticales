@@ -2,7 +2,7 @@
 # Instalador para Mac (sirve también en Linux). Uso: bash instalar.sh
 set -euo pipefail
 cd "$(dirname "$0")"
-echo "Instalando Videos verticales con 12 estilos..."
+echo "Instalando Videos verticales con 13 estilos..."
 
 if [ -f pyproject.toml ]; then
   if ! command -v uv >/dev/null 2>&1; then

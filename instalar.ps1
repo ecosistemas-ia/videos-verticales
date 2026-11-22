@@ -2,7 +2,7 @@
 #   powershell -ExecutionPolicy Bypass -File .\instalar.ps1
 $ErrorActionPreference = "Stop"
 Set-Location -Path $PSScriptRoot
-Write-Host "Instalando Videos verticales con 12 estilos..."
+Write-Host "Instalando Videos verticales con 13 estilos..."
 
 function Tiene($comando) { return [bool](Get-Command $comando -ErrorAction SilentlyContinue) }
 

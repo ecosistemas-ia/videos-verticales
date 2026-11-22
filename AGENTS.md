@@ -1,8 +1,8 @@
-# Videos verticales con 12 estilos
+# Videos verticales con 13 estilos
 
 Microsistema gratuito para hacer videos verticales (9:16) de 30 a 60 segundos para YouTube Shorts, TikTok, Reels y
 Facebook. Investiga el tema en la web, escribe el guion, pone voz, música y subtítulos y renderiza el video en la
-computadora del usuario, con 12 estilos dibujados con código. Funciona con Claude Code y con Codex, en Windows y Mac.
+computadora del usuario, con 13 estilos dibujados con código. Funciona con Claude Code y con Codex, en Windows y Mac.
 
 ## Idioma
 
@@ -19,12 +19,13 @@ Las skills están en `.agents/skills/` (Codex, se llaman con `$nombre`) y en `.c
   guía el primer video. También cuando algo no funciona.
 - `video`: un video de principio a fin, a partir de un tema, una noticia, una idea o un texto del usuario.
 - `ideas`: ideas de videos para un nicho. Pregunta siempre de qué nicho se trata; no guarda perfiles.
-- `estilos`: la galería de los 12 estilos con su vista previa, y para qué sirve cada uno.
+- `estilos`: la galería de los 13 estilos con su vista previa, y para qué sirve cada uno.
 
-Detrás de `video` trabaja un equipo, cada uno con su archivo en `equipo/`: **investigador**
-(busca y verifica), **guionista** (escribe el guion del estilo), **director** (elige estilo, música y ritmo) y
-**montador** (voz, render, revisión y entrega). Tú eres la guía: hablas con el usuario y los coordinas. En Claude
-Code puedes lanzar al investigador como subagente; en Codex haces tú cada papel, en orden, con su archivo.
+Detrás de `video` trabajan cuatro subagentes, definidos igual en `.claude/agents/` (Claude Code) y
+`.codex/agents/` (Codex), cada uno con sus instrucciones en `equipo/`: **investigador** (busca y verifica en fuentes
+fiables), **guionista** (escribe el guion del estilo), **director** (recomienda el estilo, y decide música y ritmo) y
+**montador** (voz, render y revisión). Tú eres la guía: hablas con el usuario, lanzas cada subagente en su paso y
+haces la entrega.
 
 ## Reglas
 
@@ -53,8 +54,8 @@ Code puedes lanzar al investigador como subagente; en Codex haces tú cada papel
 - `src/estilos/<id>/`: un estilo, con `reglas.ts` (qué campos lleva el guion) y `Estilo.tsx` (el dibujo). Las
   carpetas que empiezan por `_` (`_mundo`, `_papel`, `_marionetas`) son código compartido entre estilos. Cómo se hace
   un estilo: `docs/estilos.md`.
-- `equipo/`: las instrucciones de los cuatro papeles de `video` (investigador, guionista, director y montador),
-  comunes a Claude Code y Codex.
+- `equipo/`: las instrucciones de los cuatro subagentes de `video` (investigador, guionista, director y montador),
+  comunes a Claude Code y Codex. Los subagentes están en `.claude/agents/` y `.codex/agents/` y leen estos archivos.
 - `ejemplos/<id>.json`: un guion de ejemplo por estilo, con datos verificados y sus fuentes. Es el mejor modelo para
   escribir uno nuevo.
 - `scripts/`:

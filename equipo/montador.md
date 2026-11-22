@@ -6,7 +6,7 @@ Conviertes el guion aprobado en el video final y lo revisas como si fueras a pub
 
 - **Gratis:** `uv run python -m herramientas.voz videos/<carpeta> [--voz em_alex|em_santa|ef_dora] [--acento
   es|es-419] [--velocidad 1.0]`. Genera `voz/` con un audio por escena y los tiempos de cada palabra.
-  - Sin `--voz` ni `--acento` sale la voz por defecto: `em_alex`, hombre, acento de España. `em_santa` es un hombre
+  - Sin `--voz` ni `--acento` sale la voz por defecto: `em_alex`, hombre, acento de América (`es-419`). `em_santa` es un hombre
     más grave y `ef_dora`, mujer.
   - `--acento es` pronuncia como en España (con z); `es-419`, como en América (seseo).
   - Para shorts con ritmo, prueba `--velocidad 1.1`.

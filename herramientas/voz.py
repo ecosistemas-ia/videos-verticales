@@ -6,7 +6,7 @@ De pago, opcional: ElevenLabs, con tu clave en .env (ELEVENLABS_API_KEY).
     uv run python -m herramientas.voz estado
     uv run python -m herramientas.voz instalar
     uv run python -m herramientas.voz muestra [--voz em_alex] [--acento es|es-419] [--texto "..."]
-    uv run python -m herramientas.voz videos/<carpeta> [--voz em_alex] [--acento es] [--velocidad 1.0]
+    uv run python -m herramientas.voz videos/<carpeta> [--voz em_alex] [--acento es-419] [--velocidad 1.0]
     uv run python -m herramientas.voz videos/<carpeta> --motor elevenlabs --voz <id> [--estimar] [--confirmado]
     uv run python -m herramientas.voz voces-elevenlabs
 
@@ -42,7 +42,7 @@ VOCES = {
     "em_santa": "hombre, más grave",
 }
 ACENTOS = {"es": "España (con z)", "es-419": "América (seseo)"}
-# Elegida por el operador al escuchar las seis muestras (revisión del 20/11/2026).
+# La voz y el acento por defecto: hombre, acento de América (seseo).
 VOZ_POR_DEFECTO = "em_alex"
 TEXTO_MUESTRA = (
     "¿Sabías que el 70 % de las búsquedas en YouTube ya pasa por la IA? "
@@ -444,7 +444,7 @@ def main() -> None:
     p.add_argument("objetivo", help="estado · instalar · muestra · voces-elevenlabs · videos/<carpeta>")
     p.add_argument("--motor", choices=["kokoro", "elevenlabs"], default="kokoro")
     p.add_argument("--voz", default=None, help=f"gratis: {', '.join(f'{k} ({v})' for k, v in VOCES.items())}, por defecto {VOZ_POR_DEFECTO}; ElevenLabs: el id")
-    p.add_argument("--acento", choices=list(ACENTOS), default="es", help="es = España, es-419 = América (solo voz gratis)")
+    p.add_argument("--acento", choices=list(ACENTOS), default="es-419", help="es-419 = América (por defecto), es = España (solo voz gratis)")
     p.add_argument("--velocidad", type=float, default=1.0, help="de 0.8 a 1.3 (solo voz gratis)")
     p.add_argument("--modelo", default="eleven_multilingual_v2", help="modelo de ElevenLabs")
     p.add_argument("--texto", default=None, help="texto de la muestra")

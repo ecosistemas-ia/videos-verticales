@@ -1,6 +1,6 @@
 ---
 name: empezar
-description: Primera vez con el microsistema de video, o cuando algo no funciona. Comprueba la instalación, activa la búsqueda web, prepara la voz gratis, enseña los 12 estilos y guía el primer video paso a paso.
+description: Primera vez con el microsistema de video, o cuando algo no funciona. Comprueba la instalación, activa la búsqueda web, prepara la voz gratis, enseña los 13 estilos y guía el primer video paso a paso.
 ---
 
 # empezar: la guía de la primera vez
@@ -10,7 +10,7 @@ funcione. Si algo falla, explica qué pasó en una frase y da la solución para 
 
 ## 1. Saludo (3 líneas como máximo)
 
-Qué hace: videos verticales de 30 a 60 segundos para Shorts, TikTok, Reels y Facebook, con 12 estilos, gratis y en su
+Qué hace: videos verticales de 30 a 60 segundos para Shorts, TikTok, Reels y Facebook, con 13 estilos, gratis y en su
 computadora. La primera vez tarda unos 10 minutos en prepararse; después, cada video tarda pocos minutos.
 
 ## 2. La instalación
@@ -55,11 +55,11 @@ Pregunta con opciones:
 Con la 1:
 
 1. `uv run python -m herramientas.voz instalar` descarga el modelo y comprueba que llegó entero.
-2. `uv run python -m herramientas.voz muestra` se abre sola: es la voz por defecto, hombre con acento de España
-   (`em_alex`).
+2. `uv run python -m herramientas.voz muestra` se abre sola: es la voz por defecto, hombre con acento de América
+   (`em_alex`, `es-419`).
 3. Pregunta si le gusta, con opciones:
    - hombre (`em_alex`, la de por defecto), hombre grave (`em_santa`) o mujer (`ef_dora`);
-   - acento de España (`--acento es`, con z) o de América (`--acento es-419`, seseo).
+   - acento de América (`--acento es-419`, seseo, el de por defecto) o de España (`--acento es`, con z).
 
    Haz la muestra de la que elija. No guardes su elección como perfil: es para que la conozca.
 
@@ -68,7 +68,7 @@ Con la 2: que pegue su clave en `.env` (`ELEVENLABS_API_KEY=`), nunca en el chat
 
 ## 5. Los estilos
 
-`node scripts/galeria.ts` abre la galería con los 12 estilos, agrupados por familia, con una portada y un video corto
+`node scripts/galeria.ts` abre la galería con los 13 estilos, agrupados por familia, con una portada y un video corto
 de cada uno. `node scripts/estilos.ts` da las mismas familias con para qué sirve cada una: cuéntaselas en una línea
 cada una, sin inventar otras, y pregúntale cuál le llama más la atención para el primer video.
 

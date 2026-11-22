@@ -1,0 +1,240 @@
+{
+  "estilo": "plastilina",
+  "titulo": "Tres señales de que necesitas ortodoncia",
+  "subtitulos": "frase",
+  "musica": "lofi-01.mp3",
+  "marca": {
+    "nombre": "@tucanal",
+    "acento": "#FFD23F"
+  },
+  "ajustes": {
+    "escenario": "consultorio",
+    "fondo": "estudio",
+    "tinta": "#1E1B2E",
+    "mostrar_fuente": true
+  },
+  "fuentes": [
+    {
+      "titulo": "American Association of Orthodontists (AAO), Your Guide to Orthodontic Health (17/12/2025). Dientes apiñados o con huecos, dificultad para morder, mejillas mordidas, mandíbula con dolor, clic o desviada; primera revisión a los 7 años como tarde",
+      "url": "https://aaoinfo.org/whats-trending/family-orthodontic-health-guide/",
+      "fecha": "2026-11-22"
+    },
+    {
+      "titulo": "AAO, Orthodontics for Children: Developing a Healthy Smile (actualizada el 30/09/2026). Señales: dificultad para masticar o morder, morderse las mejillas, mandíbula que se desvía o hace clic; revisión a los 7 años",
+      "url": "https://aaoinfo.org/child-orthodontics/",
+      "fecha": "2026-11-22"
+    },
+    {
+      "titulo": "AAO, Adult Orthodontics: Embrace Your Smile at Any Age (actualizada el 30/09/2026). Dientes mal alineados: más difíciles de limpiar, más riesgo de caries y enfermedad de las encías; la edad no impide el tratamiento",
+      "url": "https://aaoinfo.org/adult-orthodontics/",
+      "fecha": "2026-11-22"
+    },
+    {
+      "titulo": "NHS, Braces (revisada el 29/06/2026). Dientes muy juntos o salidos, huecos grandes, dificultad para masticar o limpiar; los adultos también pueden llevar aparatos",
+      "url": "https://www.nhs.uk/conditions/orthodontics/",
+      "fecha": "2026-11-22"
+    },
+    {
+      "titulo": "Consumer, Maloclusión dental: cómo los dientes mal alineados afectan a la salud (13/11/2023). Más placa, caries y enfermedad periodontal",
+      "url": "https://www.consumer.es/salud/maloclusion-dental-causas-consecuencias-sintomas-prevencion",
+      "fecha": "2026-11-22"
+    }
+  ],
+  "escenas": [
+    {
+      "texto": "¿Tu boca pide ortodoncia? Aquí van tres pistas.",
+      "habla": "narrador",
+      "rotulo": "3 señales de ortodoncia",
+      "personajes": [
+        {
+          "id": "diente",
+          "forma": "diente",
+          "x": "centro_izquierda",
+          "emocion": "sorprendido",
+          "accion": "entra"
+        },
+        {
+          "id": "dentista",
+          "forma": "bola",
+          "color": "celeste",
+          "accesorio": "espejo",
+          "ojos": "saltones",
+          "x": "centro_derecha",
+          "emocion": "feliz",
+          "accion": "entra",
+          "retraso": 0.35
+        }
+      ],
+      "escenario": "consultorio"
+    },
+    {
+      "texto": "Señal uno: dientes apiñados, montados o con huecos grandes.",
+      "habla": "diente",
+      "rotulo": "1. Dientes montados",
+      "fuente": "AAO, 2025 · NHS, 2026",
+      "personajes": [
+        {
+          "id": "diente",
+          "forma": "diente",
+          "x": "izquierda",
+          "emocion": "neutral"
+        },
+        {
+          "id": "vecino",
+          "forma": "diente",
+          "x": "centro",
+          "escala": 0.85,
+          "emocion": "asustado",
+          "accion": "tiembla"
+        },
+        {
+          "id": "vecino_2",
+          "forma": "diente",
+          "x": "derecha",
+          "escala": 0.8,
+          "emocion": "triste",
+          "accion": "entra",
+          "retraso": 0.5
+        }
+      ],
+      "escenario": "boca"
+    },
+    {
+      "texto": "Se limpian peor, acumulan placa y sube el riesgo de caries y de encías enfermas.",
+      "habla": "dentista",
+      "rotulo": "Más placa, más caries",
+      "fuente": "AAO, Adult Orthodontics, 2026",
+      "personajes": [
+        {
+          "id": "diente",
+          "forma": "diente",
+          "x": "centro_izquierda",
+          "emocion": "triste"
+        },
+        {
+          "id": "dentista",
+          "forma": "bola",
+          "color": "celeste",
+          "accesorio": "espejo",
+          "ojos": "saltones",
+          "x": "centro_derecha",
+          "emocion": "neutral",
+          "accion": "asiente"
+        }
+      ],
+      "escenario": "boca"
+    },
+    {
+      "texto": "Señal dos: te cuesta morder o masticar, o te muerdes las mejillas a menudo.",
+      "habla": "diente",
+      "rotulo": "2. Morder cuesta",
+      "fuente": "AAO, Orthodontics for Children, 2026",
+      "personajes": [
+        {
+          "id": "diente",
+          "forma": "diente",
+          "x": "centro",
+          "emocion": "cansado",
+          "accion": "niega"
+        }
+      ],
+      "escenario": "cocina"
+    },
+    {
+      "texto": "Señal tres: la mandíbula duele, hace clic o se va hacia un lado.",
+      "habla": "diente",
+      "rotulo": "3. Mandíbula que cruje",
+      "fuente": "AAO, Guide to Orthodontic Health, 2025",
+      "personajes": [
+        {
+          "id": "diente",
+          "forma": "diente",
+          "x": "centro",
+          "emocion": "asustado",
+          "accion": "tiembla"
+        }
+      ],
+      "escenario": "boca"
+    },
+    {
+      "texto": "En los niños, la primera revisión con el ortodoncista, a los siete años como tarde.",
+      "habla": "dentista",
+      "rotulo": "Primera revisión",
+      "dato": "7 años",
+      "fuente": "Asociación Americana de Ortodoncistas (AAO)",
+      "personajes": [
+        {
+          "id": "dentista",
+          "forma": "bola",
+          "color": "celeste",
+          "accesorio": "espejo",
+          "ojos": "saltones",
+          "x": "centro_izquierda",
+          "emocion": "feliz",
+          "accion": "asiente"
+        },
+        {
+          "id": "nino",
+          "forma": "diente",
+          "x": "centro_derecha",
+          "escala": 0.72,
+          "accesorio": "gorro_fiesta",
+          "emocion": "feliz",
+          "accion": "salta"
+        }
+      ],
+      "escenario": "consultorio"
+    },
+    {
+      "texto": "Y no es solo cosa de niños: los adultos también pueden llevar ortodoncia.",
+      "habla": "narrador",
+      "rotulo": "También en adultos",
+      "fuente": "AAO · NHS",
+      "personajes": [
+        {
+          "id": "nino",
+          "forma": "diente",
+          "x": "centro_izquierda",
+          "escala": 0.72,
+          "accesorio": "gorro_fiesta",
+          "emocion": "feliz"
+        },
+        {
+          "id": "adulto",
+          "forma": "diente",
+          "x": "centro_derecha",
+          "accesorio": "gafas",
+          "emocion": "orgulloso",
+          "accion": "entra"
+        }
+      ],
+      "escenario": "calle"
+    },
+    {
+      "texto": "¿Notas alguna de las tres? Pide una revisión en tu clínica dental.",
+      "habla": "dentista",
+      "rotulo": "Pide tu revisión",
+      "personajes": [
+        {
+          "id": "diente",
+          "forma": "diente",
+          "x": "centro_izquierda",
+          "emocion": "feliz",
+          "accion": "celebra"
+        },
+        {
+          "id": "dentista",
+          "forma": "bola",
+          "color": "celeste",
+          "accesorio": "espejo",
+          "ojos": "saltones",
+          "x": "centro_derecha",
+          "emocion": "feliz",
+          "accion": "celebra",
+          "retraso": 0.2
+        }
+      ],
+      "escenario": "consultorio"
+    }
+  ]
+}

@@ -12,13 +12,26 @@ frase de por qué cada uno, y que el usuario elija. Si quiere verlos, `node scri
 |---|---|
 | Explicar un concepto o comparar dos opciones | `iconos`, `pantallas`, `isometrico` |
 | Noticia tecnológica | `pantallas`, `iconos` |
-| Historia, curiosidad o anécdota | `cabezas`, `relato`, `chat`, `sombras` |
+| Historia, curiosidad o anécdota | `cabezas`, `relato`, `chat`, `sombras`, `plastilina` |
 | Mito, leyenda o historia antigua | `sombras`, `ciudad`, `cabezas` |
-| Salud y cuerpo humano | `organos` |
+| Salud y cuerpo humano | `organos` solo si los órganos del tema están en su catálogo (corazón, cerebro, estómago, pulmones, hígado, riñón, intestino, piel, hueso, glóbulos); si no, `plastilina` |
+| Consejos de un negocio, preguntas frecuentes, dinero, servicios | `plastilina`, `iconos` |
+| Dientes, boca, ojos, pelo u otra parte que no está en `organos` | `plastilina` (un diente, una gota, una bola con el accesorio del oficio) |
 | Ranking o datos en el tiempo | `carrera` |
 | Juego o reto para comentar | `quiz` |
 | Mensaje de marca o posicionamiento | `surreal`, `relato` |
 | Ciudades, lugares, cómo era antes | `ciudad`, `isometrico` |
+
+**Los personajes tienen que ser del tema.** En `organos` y `plastilina` cada personaje en pantalla tiene que tener que
+ver con lo que se cuenta. Si el tema es de dientes, no pongas un estómago ni un hueso porque el catálogo no tiene
+boca: cambia de estilo. En `plastilina` el personaje se arma con una forma del tema y un accesorio del oficio (el
+diente que habla, el dentista con el espejo, la moneda con gafas para el ahorro).
+
+**El fondo también es del tema.** En `plastilina` cada escena lleva un `escenario`, el lugar de lo que dice la voz:
+`consultorio` cuando se habla de la visita, `boca` cuando se habla de los dientes, `cocina` para comer o masticar,
+`tienda` para comprar, `oficina` para trabajo o negocio, `finanzas` para dinero y cifras, `calle`, `parque`, `salon`,
+`gimnasio` y `aula`. Pon en `ajustes.escenario` el lugar principal del video y cámbialo en la escena solo cuando el
+texto cambie de lugar: dos o tres lugares por video bastan. El fondo liso (`fondo`) queda para los temas sin lugar.
 
 ## Música y sonido
 

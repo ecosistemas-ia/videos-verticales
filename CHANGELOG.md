@@ -1,6 +1,18 @@
 # Cambios
 
-Todas las versiones de Videos verticales con 12 estilos, de la más nueva a la más antigua.
+Todas las versiones de Videos verticales, de la más nueva a la más antigua.
+
+
+## [0.2.0] - 2026-11-22
+
+- Estilo 13, «Personajes de plastilina»: personajes redondos y brillantes, sin brazos ni piernas, con la forma del
+  tema (14 formas, 12 accesorios, 8 emociones). Cada escena puede tener su lugar detrás (11 escenarios: consultorio,
+  boca, oficina, tienda, cocina, salón, calle, parque, gimnasio, aula y finanzas).
+- Los cuatro papeles de `video` son subagentes de verdad, en Claude Code (`.claude/agents/`) y en Codex
+  (`.codex/agents/`): investigador, guionista, director y montador. La skill los lanza en su paso.
+- La voz gratis por defecto es hombre con acento de América (`em_alex`, es-419).
+- «Órganos con cara» ya no lleva el whoosh de cada escena ni la subida larga: debajo de la voz sonaban a avión.
+- El director solo elige personajes y fondos que tengan que ver con el tema.
 
 
 ## [0.1.2] - 2026-11-22

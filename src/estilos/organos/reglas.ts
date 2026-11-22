@@ -95,18 +95,18 @@ export const reglas: ReglasEstilo<typeof escenaOrganos, typeof ajustesOrganos> =
   },
   cola: 0.8,
   admiteSubtitulos: true,
-  efectos: ['pop', 'whoosh', 'brillo', 'impacto', 'subida'],
+  // Sin whoosh ni subidas: debajo de la voz sonaban a avión (revisión del 22/11/2026).
+  efectos: ['pop', 'brillo', 'impacto', 'burbuja'],
   golpes(escenas: readonly EscenaLista<EscenaOrganos>[]) {
     const golpes: { efecto: string; segundo: number; volumen?: number }[] = [];
     escenas.forEach((e, i) => {
       const antes = new Set((escenas[i - 1]?.datos.personajes ?? []).map((p) => p.personaje));
-      if (i > 0) golpes.push({ efecto: 'whoosh', segundo: e.inicio - 0.1, volumen: 0.22 });
       e.datos.personajes.forEach((p) => {
         const base = e.inicio + p.retraso;
         if (!antes.has(p.personaje) || p.accion === 'entra') golpes.push({ efecto: 'pop', segundo: base + 0.05, volumen: 0.4 });
         if (p.accion === 'celebra') golpes.push({ efecto: 'brillo', segundo: base + 0.3, volumen: 0.35 });
         if (p.accion === 'se_desmaya') golpes.push({ efecto: 'impacto', segundo: base + 1.15, volumen: 0.45 });
-        if (p.accion === 'salta') golpes.push({ efecto: 'subida', segundo: base + 0.2, volumen: 0.25 });
+        if (p.accion === 'salta') golpes.push({ efecto: 'burbuja', segundo: base + 0.15, volumen: 0.18 });
       });
       if (e.datos.rotulo !== undefined && e.datos.rotulo !== escenas[i - 1]?.datos.rotulo) golpes.push({ efecto: 'pop', segundo: e.inicio + 0.12, volumen: 0.3 });
     });

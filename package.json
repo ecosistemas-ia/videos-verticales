@@ -2,7 +2,7 @@
   "name": "video-estilos",
   "version": "0.1.0",
   "private": true,
-  "description": "Microsistema gratuito de videos verticales con 12 estilos dibujados con código (Remotion), para Claude Code y Codex en Windows y Mac",
+  "description": "Microsistema gratuito de videos verticales con 13 estilos dibujados con código (Remotion), para Claude Code y Codex en Windows y Mac",
   "type": "module",
   "scripts": {
     "tipos": "tsc -p tsconfig.json",

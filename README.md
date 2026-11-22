@@ -1,4 +1,4 @@
-# Videos verticales con 12 estilos
+# Videos verticales con 13 estilos
 
 Videos verticales de 30 a 60 segundos para YouTube Shorts, TikTok, Reels y Facebook, hechos en tu computadora y
 gratis. Le dices el tema y el asistente lo investiga, escribe el guion, pone voz, música y subtítulos, y te entrega
@@ -6,17 +6,18 @@ el video listo para publicar.
 
 ## Qué incluye
 
-- **12 estilos dibujados con código**: quiz con cuenta atrás, historia en un chat, carrera de datos, explicación con
+- **13 estilos dibujados con código**: quiz con cuenta atrás, historia en un chat, carrera de datos, explicación con
   íconos, noticia tech con pantallas, surreal en blanco y negro, relato de un negocio, teatro de sombras, órganos con
-  cara, personajes de cabeza blanca en 3D, maqueta 3D de una ciudad e ilustración isométrica.
-- **Una guía y un equipo**: `empezar` te acompaña la primera vez. Detrás de `video` trabajan cuatro papeles:
-  - un investigador que busca y verifica los datos en la web, con sus fuentes;
+  cara, personajes de plastilina con la forma del tema, personajes de cabeza blanca en 3D, maqueta 3D de una ciudad e
+  ilustración isométrica.
+- **Una guía y un equipo**: `empezar` te acompaña la primera vez. Detrás de `video` trabajan cuatro subagentes, en Claude Code y en Codex:
+  - un investigador que busca y verifica los datos en la web, solo en fuentes fiables, y anota cada fuente;
   - un guionista que escribe para videos cortos;
   - un director que elige estilo y música;
   - un montador que renderiza, revisa y entrega.
 - **Cuatro formas de empezar un video**: un tema que hay que explicar, una noticia de la semana, una idea de la skill
   `ideas` (que siempre te pregunta tu nicho) o tu propio texto.
-- **Voz gratis** en tu computadora (hombre o mujer, acento de España o de América), o ElevenLabs si tienes cuenta.
+- **Voz gratis** en tu computadora (hombre o mujer, acento de América o de España), o ElevenLabs si tienes cuenta.
   **Subtítulos** palabra a palabra, por frases o sin subtítulos. **Música y efectos** libres de derechos incluidos.
 
 ## Requisitos
@@ -51,7 +52,7 @@ Después abre la carpeta con Claude Code (`claude`) o con Codex (`codex`) y escr
 | `/empezar` | `$empezar` | La primera vez: instalación, búsqueda web, voz, estilos y tu primer video |
 | `/video <tema>` | `$video <tema>` | Un video de principio a fin |
 | `/ideas` | `$ideas` | Diez ideas de videos para tu nicho, con pruebas de que interesan |
-| `/estilos` | `$estilos` | La galería de los 12 estilos |
+| `/estilos` | `$estilos` | La galería de los 13 estilos |
 
 Cada video queda en `videos/<fecha>_<tema>/` con `video.mp4`, la portada y una página de entrega con títulos,
 descripción, fuentes y hashtags.

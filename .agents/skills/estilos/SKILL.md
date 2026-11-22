@@ -1,6 +1,6 @@
 ---
 name: estilos
-description: Enseña la galería de los 12 estilos de video con su portada y un video corto de cada uno, y explica para qué contenido sirve cada estilo.
+description: Enseña la galería de los 13 estilos de video con su portada y un video corto de cada uno, y explica para qué contenido sirve cada estilo.
 ---
 
 # estilos: la galería
